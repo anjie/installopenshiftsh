@@ -52,9 +52,9 @@ echo -n "Docker配置完毕！"
 
 echo -n "正在安装openshift all-in-one"
 # yum list all | grep openshift
-# yum info centos-release-openshift-origin37.noarch
+# yum info centos-release-openshift-origin39.noarch
 
-yum install -y centos-release-openshift-origin37.noarch
+yum install -y centos-release-openshift-origin39.noarch
 
 yum install origin -y
 
